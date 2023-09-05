@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Definición del documento HTML -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Enlace al archivo CSS de Bootstrap desde una fuente confiable -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+
+    <!-- Contenido principal -->
+    <main class="container mt-4">
+        {% block content %}
+        {% endblock %}
+    </main>
+    
+    <!-- Pie de página -->
+    <footer class="bg-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <!-- Información sobre las visitas al laboratorio -->
+                    <p class="text-muted">Número de Visitas: {{ numveces }}</p>
+                </div>
+                <div class="col-md-4">
+                    <!-- Enlace para agregar un nuevo experimento de laboratorio -->
+                    <a href="/create" class="btn btn-primary">Agregar Laboratorio</a>
+                </div>
+                <div class="col-md-4">
+                    <!-- Enlace a la página de inicio del laboratorio -->
+                    <a href="/" class="btn btn-link">Inicio</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts de Bootstrap (jQuery y Popper.js) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+J2z5l5a5um5O6f9JzuL+50n/rPq3p5kBCBz5byF1bd2BR6F" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-vrDkLk5K6h5Rkz5w5f5cB4P9z6m9KL9k5feW7p3RqU8Jw9c/6pIE6eF5cB4P9z6m9KL9k5feW7p3RqU8Jw9c/6pIE6eF5cB4P9z6m9KL9k5feW7p3RqU8Jw9c/6pIE6eF5cB4P9z6m9KL9k5feW7p3RqU8Jw9c/6pIE6eF5cB4P9z6m9KL9k5feW7p3RqU8Jw9c/6pIE6eF5cB4P9z6m9KL9k5feW7p3RqU8Jw9c/6pIE6eF5cB4P9z6m9KL9k5feW7p3RqU8Jw9c/6pIE6eF5cB4P9z6m9KL9k5feW7p3RqU8Jw9c/6pIE6eF5cB4P9z6m9KL9k5feW7p3RqU8Jw9c/6pIE6eF5cB4P9z6m9KL9k5feW7p3RqU8Jw9c/6pIE6eF5cB4P9z6m9KL9k5feW7p3RqU8Jw9c/6pIE6eF5cB4P9z6m9KL9k5feW7p3RqU8Jw9c/6pIE6eF5cB4P9z6m9KL9k5feW7p3RqU8Jw9c/6pIE6eF5cB4P9z6m9KL9k5feW7p3RqU8Jw9c/6pIE6eF5cB4P9z6m9KL9k5feW7p3RqU8Jw9c/6pIE6eF5cB4P9z6m9KL9k5feW7p3RqU8Jw9c/6pIE6eF5cB4P9z6m9KL9k5feW7p3RqU8Jw9c/6pIE6eF5cB4P9z6m9KL9k5feW7p3RqU8Jw9c/6pIE6eF5cB4P9z6m9KL9k5feW7p3RqU8Jw9c/6pIE6eF5cB4P9z6m9KL9k5feW7p3RqU8Jw9c/6pIE6eF5cB4P9z6m9KL9k5feW7p3RqU8Jw9c/6pIE6eF5cB4P9z6m9KL9k5feW7p3RqU8Jw9c/6pIE6eF5cB4P9z6m9KL9k5feW7p3RqU8Jw9c/6pIE6eF5cB4P9z6m9KL9k5feW7p3RqU8Jw9c/6pIE6eF5cB4P9z6m9KL9k5feW7p3RqU8Jw9c/6pIE6eF5
